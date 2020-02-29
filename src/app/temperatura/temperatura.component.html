@@ -1,0 +1,7 @@
+<div>
+  <h1>Conversor de temperatura</h1>
+  <label for="celsius">Celsius:</label>
+  <input (keyup)="onConvertirCelsius()" (change)="onConvertirCelsius()" type="number" id="celcius" [(ngModel)]="celsius">
+  <label for="fahrenheit">Fahrenheit</label>
+  <input (keyup)="onConvertirFahrenheit()" (change)="onConvertirFahrenheit()" type="number" id="fahrenheit" [(ngModel)]="fahrenheit">
+</div>

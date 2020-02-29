@@ -1,0 +1,9 @@
+<div>
+  <h1>Conversor de divisa</h1>
+  <label for="tipoCambio">Tipo de cambio:</label>
+  <input (keyup)="onTipodeCambio()" (change)="onTipodeCambio()" type="number" id="tipoCambio" [(ngModel)]="tipoCambio">
+  <label for="dolares">Dolares:</label>
+  <input (keyup)="onConvertirDolares()" (change)="onConvertirDolares()" type="number" id="dolares" [(ngModel)]="dolares">
+  <label for="pesos">Pesos:</label>
+  <input (keyup)="onConvertirPesos()" (change)="onConvertirPesos()" type="number" id="pesos" [(ngModel)]="pesos">
+</div>
